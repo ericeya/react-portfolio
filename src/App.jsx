@@ -8,6 +8,8 @@ import {
 import Home from './components/Home'
 import Footer from './components/Footer'
 import Portfolio from './components/Portfolio'
+import Resume from './components/Resume'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -15,13 +17,14 @@ function App() {
     <>
       <Router>
         <Navbar />
-            <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/portfolio' element={<Portfolio/>} />
-              <Route path='/contact' element={<Portfolio/>} />
-              <Route path='/resume' element={<Portfolio/>} />
-            </Routes>
-        <Footer/>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/resume' element={<Resume />} />
+          <Route path='*' element={<Portfolio />} />
+        </Routes>
+        <Footer />
       </Router>
     </>
   )

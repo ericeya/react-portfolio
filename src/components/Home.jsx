@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player'
 
 export default function Home() {
     return (
-        <>
+        <div>
             <Parallax pages={2} className="d-flex justify-content-center">
                 <ParallaxLayer className="d-flex justify-content-center"
                     offset={0}
@@ -68,7 +68,7 @@ export default function Home() {
 
             </Parallax>
 
-        </>
+        </div>
     )
 }
 
