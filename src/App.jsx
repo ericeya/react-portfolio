@@ -8,6 +8,7 @@ import {
 } from "react-router-dom"
 import Home from './components/Home'
 import Footer from './components/Footer'
+import Portfolio from './components/Portfolio'
 
 function App() {
 
@@ -17,16 +18,14 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <body>
           <div>
             <Routes>
               <Route path='/' element={<Home />} />
-              <Route path='/profile' element={<h3>This is my profile Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nihil minus sunt repellat eum id cum dignissimos accusantium officiis delectus excepturi minima, voluptas est rem? Sunt voluptatibus est consequatur suscipit!</h3>
-
-              } />
+              <Route path='/portfolio' element={<Portfolio/>} />
+              <Route path='/contact' element={<Portfolio/>} />
+              <Route path='/resume' element={<Portfolio/>} />
             </Routes>
           </div>
-        </body>
         <Footer/>
       </Router>
     </>

@@ -22,7 +22,7 @@ export default function Home() {
                         width: '100%',
                         objectPosition: 'center',
                         zIndex: '0',
-                        opacity: 1
+                        marginTop: '10rem'
 
                     }}
                 >
@@ -38,9 +38,12 @@ export default function Home() {
                             <h3 id="About-me">About me</h3> 
 
                         </div>
-                        <div className='row d-flex justify-content-between picture-container'>
-                            <div className='col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4'>
+                        <div className='row d-flex justify-content-between'>
+                            <div className='col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 picture-container'>
+                                <div>
                                 <img src="/src/assets/self.png" alt="myself" id="about-me-pic" />
+
+                                </div>
 
                             </div>
                             <div className='col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8'>
