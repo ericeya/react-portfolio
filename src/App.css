@@ -17,7 +17,8 @@ body {
 #navbar-text li  {
   list-style-type: none;
   padding: 1.5rem;
-  color: rgb(235, 235, 235)
+  color: rgb(235, 235, 235);
+  font-size: 1.4rem;
 }
 
 .navbar-text {
@@ -66,7 +67,7 @@ header {
 
 .proj-card img {
   height: 330px;
-  opacity: 0.8;
+  opacity: 0.6;
   object-fit: cover;
   transition: all 0.5s ease-in-out;
 }

@@ -1,4 +1,3 @@
-import { useState, useRef } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import {
@@ -12,20 +11,16 @@ import Portfolio from './components/Portfolio'
 
 function App() {
 
-
-
   return (
     <>
       <Router>
         <Navbar />
-          <div>
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/portfolio' element={<Portfolio/>} />
               <Route path='/contact' element={<Portfolio/>} />
               <Route path='/resume' element={<Portfolio/>} />
             </Routes>
-          </div>
         <Footer/>
       </Router>
     </>
