@@ -1,16 +1,14 @@
+import { Link } from "react-router-dom"
+
 export default function Navbar() {
   return (
     <header>
-        <div className="container">
-            <div className="row">
-                <ul className="d-flex flex-row justify-content-center" id="navbar-text">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
+                <ul className="d-flex flex-row justify-content-end" id="navbar-text">
+                    <li><Link className="navbar-text" to="/">Home</Link> </li>
+                    <li><Link className="navbar-text" to="/profile">Profile</Link> </li>
+                    <li><Link className="navbar-text" to="/contact">Contact</Link> </li>
+                    <li><Link className="navbar-text" to="/resume">Resume</Link> </li>
                 </ul>
-            </div>
-        </div>
     </header>
   )
 }
