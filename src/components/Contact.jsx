@@ -3,7 +3,7 @@ import { useState } from 'react';
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from './utils/helpers';
 
-function Form() {
+function Contact() {
     const [email, setEmail] = useState('');
     const [userName, setUserName] = useState('');
     const [message, setMessage] = useState('');
@@ -96,4 +96,4 @@ function Form() {
     );
 }
 
-export default Form;
+export default Contact;

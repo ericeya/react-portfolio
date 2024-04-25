@@ -1,11 +1,7 @@
 body {
-  /* background-color: black !important; */
-  /* color: white !important; */
-  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-  /* animation: fadeInAnimation ease 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; */
   background-image: url('/src/assets/rock.jpg');
+  background-size: center;
+  background-repeat: repeat;
 }
 
 .container {
@@ -14,13 +10,21 @@ body {
   animation-fill-mode: forwards;
 }
 
+.parallax-background {
+  background-image: url('/src/assets/rock.jpg');
+  width: '100%';
+  background-size: 'cover' ;
+  z-index: '0';
+  margin-top: '16rem'
+}
+
 #navbar-text {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-#navbar-text li  {
+#navbar-text li {
   list-style-type: none;
   padding: 1.5rem;
   color: rgb(235, 235, 235);
@@ -35,7 +39,7 @@ body {
   margin-right: 2rem;
 }
 
-.navbar-text-active{
+.navbar-text-active {
   list-style-type: none;
   text-decoration: none;
   color: rgb(76, 0, 255);
@@ -56,6 +60,11 @@ body {
   padding: 0rem;
   text-align: right;
   margin-right: 2rem;
+  width: 50px;
+}
+
+#profilelinks {
+  color: white;
 }
 
 .footer-content p {
@@ -73,7 +82,7 @@ header {
 }
 
 .proj-card {
-  width:90%;
+  width: 90%;
   background-color: rgba(48, 47, 47, 0.85) !important;
   color: rgb(235, 235, 235) !important;
   border: 1px solid rgb(51, 51, 51) !important;
@@ -112,6 +121,7 @@ header {
 .about-me-container {
   margin-top: 6rem;
 }
+
 #About-me {
   text-shadow: 3px 3px 5px rgb(255, 177, 190);
   color: rgb(235, 235, 235)
@@ -128,7 +138,8 @@ header {
 video {
   width: 100%;
   height: 100%;
-  object-fit: cover;;
+  object-fit: cover;
+  ;
   z-index: 99;
 }
 
@@ -149,12 +160,13 @@ video {
 
 .portfolio-header {
   margin-top: 10rem !important;
-  
+
   h2 {
-    color:white;
+    color: white;
     text-shadow: 2px 2px 5px rgb(138, 138, 138);
   }
 }
+
 .portfolio-container {
   margin-bottom: 10rem !important;
   display: grid;
@@ -178,11 +190,12 @@ video {
   flex-direction: column;
 }
 
-.form > label {
+.form>label {
   margin-bottom: 0.5rem;
 }
 
-.form > input, .form > textarea {
+.form>input,
+.form>textarea {
   margin-bottom: 1rem;
 }
 
@@ -208,7 +221,8 @@ video {
   padding: 0.4rem;
 }
 
-#user-name, #email {
+#user-name,
+#email {
   background-color: rgb(235, 235, 235, 0.8);
   border: none;
   height: 2rem;
@@ -216,21 +230,24 @@ video {
   padding: 0.4rem;
 }
 
-#message-text:focus, #user-name:focus, #email:focus {
+#message-text:focus,
+#user-name:focus,
+#email:focus {
   outline: 2px solid rgb(94, 7, 255) !important
 }
 
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0.3;
+    opacity: 0.3;
   }
+
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
-@media screen and ( max-width: 992px) {
+@media screen and (max-width: 992px) {
   #about-me-pic {
     width: 250px;
   }
@@ -241,7 +258,7 @@ video {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     justify-items: center;
-    
+
   }
 
   .portfolio-header {
@@ -258,6 +275,27 @@ video {
     padding: 0.5rem;
     margin-top: 1rem;
   }
-  
-  
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .proj-card img {
+    height: 250px;
+  }
+
+  .parallax-background {
+    background-size: 'cover' ;
+    object-fit: center;
+    z-index: '0';
+    margin-top: '16rem'
+  }
+
+  #about-me-p {
+    margin-right: 1rem;
+  }
+
+  .footer-content {
+    margin-right: 1rem;
+  }
 }

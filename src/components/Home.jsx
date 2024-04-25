@@ -5,20 +5,13 @@ import ReactPlayer from 'react-player'
 
 export default function Home() {
     return (
-        <div>
+        <div className='parallax-container'>
             <Parallax pages={2} className="d-flex justify-content-center">
-                <ParallaxLayer className="d-flex justify-content-center"
+                <ParallaxLayer className="d-flex justify-content-center parallax-background"
                     offset={0}
                     speed={0.2}
                     factor={3}
-                    style={{
-                        backgroundImage: `url(${rock})`,
-                        width: '100%',
-                        objectPosition: 'center',
-                        zIndex: '0',
-                        marginTop: '10rem'
-
-                    }}
+                    
                 >
                 </ParallaxLayer>
 

@@ -1,0 +1,65 @@
+.resume {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    margin-top: 10rem;
+    color: rgb(235,235,235);
+    /* position: relative; */
+}
+
+#logos {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+}
+
+
+
+.title-resume a {
+    color: white
+}
+
+.year h3, .year h5 {
+    margin-bottom: 2rem;
+    text-shadow: 5px 5px 5px rgb(63, 63, 63);
+}
+
+.year {
+    margin-bottom: 2rem;
+}
+
+.time-line {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.position {
+    text-shadow: 5px 5px 4px rgb(48, 48, 48);
+
+}
+
+@media screen and (max-width: 992px) {
+    .resume {
+        margin-top: 7rem;
+    }
+
+    .year {
+        margin: 0 2rem 0 0rem;
+    }
+
+    .time-line {
+        padding: 0;
+    }
+    
+    .position {
+        width: 70% !important;
+    }
+    .container {
+        width: 90% !important;
+    }
+
+    #logos {
+        width: 40px;
+        height: 40px;
+    }
+}
