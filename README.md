@@ -19,7 +19,7 @@ Welcome to my portfolio single page react web application. The site was created 
 
 # Installation
 
-* This website at [this link](https://text-editor-41mt.onrender.com/) has a prompt for installing the app to your desktop. You can use it as a desktop app without internet, or you may connect to the website directly for use of this text editor! But if you wish to clone the repo and work with it on your own, here's the steps to get it running on your local machine:
+* If you want to use it as a template, go ahead and clone the repo into your desired root directory. 
 
 1) Once repo is cloned, run the following command at the root directory in your terminal for installing necessary dependencies:
 
@@ -30,16 +30,18 @@ Welcome to my portfolio single page react web application. The site was created 
 2) After npm package installation, proceed to running the following command:
 
     ```
-    npm run start
+    npm run dev
     ```
 3) Go to `http://localhost:3000/` on your browser to test.
 
 
 # Usage
 
-This is a great way to save snippets of your daily coding needs or if you just need to save some notes on offline bases. 
+React portfolio can be daunting to build at first, once you figure out the links between components, you will be well on your way to building your own react single page website!
 
-![Screenshot of the app in use](/assets/screenshot1.png)
+![Screenshot of the app in use](/src/assets/screenshot1.png) 
+![Screenshot of the app in use](/src/assets/screenshot2.png) 
+![Screenshot of the app in use](/src/assets/screenshot3.png) 
 
 
 # Contributing

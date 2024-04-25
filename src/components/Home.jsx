@@ -2,6 +2,7 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import rock from '../assets/rock.jpg'
 import ReactPlayer from 'react-player'
+import self from '../assets/self.png'
 
 export default function Home() {
     return (
@@ -28,7 +29,7 @@ export default function Home() {
                         <div className='row d-flex justify-content-between'>
                             <div className='col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 picture-container'>
                                 <div>
-                                <img src="/src/assets/self.png" alt="myself" id="about-me-pic" />
+                                <img src={self} alt="myself" id="about-me-pic" />
 
                                 </div>
 
