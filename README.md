@@ -7,7 +7,7 @@ Welcome to my portfolio single page react web application. The site was created 
 
 ## Deployment 
 
-[Click here](https://text-editor-41mt.onrender.com/) for the deployed website.
+[Click here](https://eric-react-portfolio.netlify.app/) for the deployed website.
 
 # Table of Contents
 
