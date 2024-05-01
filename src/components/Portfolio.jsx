@@ -15,42 +15,42 @@ const portfolioObj = [
         github: 'https://github.com/ericeya/DJ-R-Us',
         screenshot: djRUs,
         title: 'DJ R Us',
-        description: 'hello world this is a great app'
+        description: 'A social platform for dad-joke enthusiasts! Read, post, like, and save the dad joke posts!'
     },
     {
         id: 2,
         github: 'https://github.com/brad-wall01/Brews-Grooves',
         screenshot: brews,
         title: 'Brews and Grooves',
-        description: 'hello world this is a great app'
+        description: 'One stop place to search for local breweries and finding nearby music events! Stop by and search for an adventure!'
     },
     {
         id: 3,
         github: 'https://github.com/ericeya/mortgage-buddy',
         screenshot: mbuddy,
         title: 'Mortgage Buddy',
-        description: 'hello world this is a great app'
+        description: 'This terminal application helps you calculate mortgage payment based on loan amount. Also it has options to evaluate whether you will be qualified for a conventional loan based on your financial situation using webscraping to grab a live national rate! Come check it out! '
     },
     {
         id: 4,
         github: 'https://github.com/ericeya/weather-dashboard',
         screenshot: weather,
         title: 'Weather Dashboard',
-        description: 'hello world this is a great app'
+        description: 'With weather API, this site searches real time data on weather information on the searched cities.'
     },
     {
         id: 5,
         github: 'https://github.com/ericeya/note-taker-app',
         screenshot: noteTaker,
         title: 'Note Taker App',
-        description: 'hello world this is a great app'
+        description: 'This simple web app allows you to write, save, and delete simple notes to help you keep track of things!'
     },
     {
         id: 6,
         github: 'https://github.com/ericeya/readme-generator',
         screenshot: readmeGen,
         title: 'Readme Generator',
-        description: 'hello world this is a great app'
+        description: 'This was a terminal application that for generating README file for your projects with a simple template that you can modify further afterwards.'
     },
 ]
 
